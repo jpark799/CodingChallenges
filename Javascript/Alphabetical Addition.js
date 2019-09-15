@@ -11,3 +11,4 @@ If no letters are given, the function should return 'z'
 SOURCE: https://www.codewars.com/kata/5d50e3914861a500121e1958/train/javascript
 
 */
+
