@@ -7,5 +7,15 @@ Your task is to finish the isUndefined method which returns true if the value is
 
 SOURCE: https://www.codewars.com/kata/564a6486c2070faee6000011/train/javascript
 */
-const isUndefined = value => 
-    typeof(value) === 'undefined'
+
+// ES6 Solution
+const isUndefined = value => typeof(value) === 'undefined'
+
+// ES5 Solution
+
+function isUndefined(value) {
+    if (value === undefined) {
+        return true
+    } else {
+        return false}
+    }
