@@ -34,3 +34,13 @@ As 98764321 is _The Maximum number _ could be formed from the digits of the numb
 SOURCE: https://www.codewars.com/kata/5a4ea304b3bfa89a9900008e/train/javascript
 
 */
+
+// ES5 Solution
+function maxNumber(n){
+    return parseInt(n.toString().split('').sort().reverse().join(''))
+}
+
+// ES6 Solution
+maxNumber = n => {
+    return parseInt(n.toString().split('').sort().reverse().join(''))
+}
