@@ -41,6 +41,6 @@ function maxNumber(n){
 }
 
 // ES6 Solution
-maxNumber = n => {
+const maxNumber = n => {
     return parseInt(n.toString().split('').sort().reverse().join(''))
 }
