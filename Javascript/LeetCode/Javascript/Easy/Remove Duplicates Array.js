@@ -6,3 +6,15 @@ Do not allocate extra space for another array, you must do this by modifying the
 SOURCE: https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
 
 */
+
+var removeDuplicates = function(nums) {
+    for (let i = 0; i < nums.length; i++) {
+        let currentItem = nums[i]
+        console.log(currentItem)
+        if (!newArray.includes(currentItem)){
+            newArray.push(currentItem)
+            console.log(newArray)
+        } 
+}
+newArray = nums
+};
