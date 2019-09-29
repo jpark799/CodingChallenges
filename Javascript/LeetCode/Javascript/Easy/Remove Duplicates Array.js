@@ -8,13 +8,5 @@ SOURCE: https://leetcode.com/explore/interview/card/top-interview-questions-easy
 */
 
 var removeDuplicates = function(nums) {
-    for (let i = 0; i < nums.length; i++) {
-        let currentItem = nums[i]
-        console.log(currentItem)
-        if (!newArray.includes(currentItem)){
-            newArray.push(currentItem)
-            console.log(newArray)
-        } 
-}
-newArray = nums
-};
+
+}; 
