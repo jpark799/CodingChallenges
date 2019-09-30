@@ -11,3 +11,14 @@ move(3, 6) should equal 15
 SOURCE: https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 
 */
+
+// ES5
+function move (position, roll) {
+    return( position + roll * 2)
+  }
+
+
+// ES6
+const move = (position, roll) => {
+    return (position + roll * 2)
+}
