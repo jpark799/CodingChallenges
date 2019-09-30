@@ -28,3 +28,29 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 SOURCE: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 */
+
+
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfit = function(prices) {
+    let sum = 0
+    for (i = 0; i < prices.length; i++ ){
+        if (prices[i+1] - prices[i] > 0) {
+            sum += prices[i + 1] - prices[i] 
+        }
+    }
+    return sum
+};
+
+
+
+/*
+
+STATS: 
+
+Runtime: 60 ms, faster than 59.47% of JavaScript online submissions for Best Time to Buy and Sell Stock II.
+Memory Usage: 35.4 MB, less than 80.95% of JavaScript online submissions for Best Time to Buy and Sell Stock II.
+
+*/
