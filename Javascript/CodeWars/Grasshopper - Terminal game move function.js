@@ -22,3 +22,6 @@ function move (position, roll) {
 const move = (position, roll) => {
     return (position + roll * 2)
 }
+
+
+
