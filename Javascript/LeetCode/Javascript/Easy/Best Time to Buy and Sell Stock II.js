@@ -46,11 +46,3 @@ var maxProfit = function(prices) {
 
 
 
-/*
-
-STATS: 
-
-Runtime: 60 ms, faster than 59.47% of JavaScript online submissions for Best Time to Buy and Sell Stock II.
-Memory Usage: 35.4 MB, less than 80.95% of JavaScript online submissions for Best Time to Buy and Sell Stock II.
-
-*/
