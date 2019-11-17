@@ -8,8 +8,9 @@ const numArray = [3, 2, 5, 10, 11, 2, 7]
 let total = 0
 
 
-numArray.forEach(element => {
-    total += element
+numArray.forEach(e => {
+    total += e
 });
 
 console.log(total)
+
