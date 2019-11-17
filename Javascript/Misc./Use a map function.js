@@ -15,7 +15,7 @@ let item = {
       {
         id: 3,
         brand: 'toyota',
-        make: 'some shitty minivan',
+        make: 'minivan',
         year: 1999
       }
     ]
